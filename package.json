@@ -2,7 +2,7 @@
   "name": "night-violet",
   "displayName": "NightViolet",
   "publisher": "MarcosDev",
-  "description": "A sleek, dark theme with elegant violet accents for developers who love minimalist, modern design",
+  "description": "Un tema oscuro elegante con acentos violeta para desarrolladores que aman el diseño minimalista y moderno",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.50.0"
@@ -10,6 +10,26 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "violet",
+    "night theme"
+  ],
+  "galleryBanner": {
+    "color": "#1c122b",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/MarcosDevYT/night-violet-vscode-theme#readme",
+  "bugs": {
+    "url": "https://github.com/MarcosDevYT/night-violet-vscode-theme/issues"
+  },
+  "license": "MIT",
+  "icon": "nightviolet-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcosDevYT/night-violet-vscode-theme"
+  },
   "contributes": {
     "themes": [
       {

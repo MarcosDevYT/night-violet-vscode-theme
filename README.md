@@ -1,28 +1,63 @@
-# NightViolet Theme
+# 🌙 Tema NightViolet
 
-A sleek, dark theme with elegant violet accents for developers who love minimalist, modern design.
+Un tema oscuro elegante con acentos violeta para desarrolladores que aman el diseño minimalista y moderno.
 
-## Instalación
+![Vista del Tema](nightviolet-icon.png)
 
-1. Descarga la carpeta del tema
+## 🚀 Instalación
+
+### Desde Visual Studio Code Marketplace
+
+1. Abre VS Code
+2. Ve a Extensiones (Ctrl+Shift+X)
+3. Busca "NightViolet"
+4. Haz clic en "Instalar"
+
+### Instalación Manual
+
+1. Descarga el archivo `.vsix` desde la página de [Lanzamientos](https://github.com/MarcosDevYT/night-violet-vscode-theme/releases)
 2. En VS Code, ve a Extensiones (Ctrl+Shift+X)
-3. Haz clic en los tres puntos (...) y selecciona "Instalar desde VSIX"
-4. Selecciona el archivo .vsix generado
+3. Haz clic en el menú de tres puntos (...) y selecciona "Instalar desde VSIX"
+4. Selecciona el archivo `.vsix` descargado
 
-## Características
+## ✨ Características
 
-- Tema oscuro personalizado
-- Colores únicos para diferentes elementos de código
+- Tema oscuro con una paleta de colores violeta elegante
+- Esquema de colores cuidadosamente diseñado para varios lenguajes de programación
+- Diseño minimalista y moderno
+- Optimizado para reducir la fatiga visual
 
-## Desarrollo
+## 🛠 Desarrollo
 
-Para desarrollar y empaquetar el tema:
+### Requisitos Previos
+
+- Node.js
+- Visual Studio Code
+- `vsce` (CLI de Extensiones de Visual Studio Code)
+
+### Configuración
+
+1. Clona el repositorio
 
 ```bash
-npm install -g @vscode/vsce
+git clone [https://github.com/MarcosDevYT/night-violet-vscode-theme.git](https://github.com/MarcosDevYT/night-violet-vscode-theme.git)
+cd night-violet-vscode-theme
+```
+
+2. Instala las dependencias
+
+```bash
+npm install -g vsce
+```
+
+3. Empaqueta la extensión
+
+```bash
 vsce package
 ```
 
-## Licencia
+4. Instala la extensión
 
-[Especifica tu licencia aquí]
+```bash
+code --install-extension night-violet-1.0.0.vsix
+```
