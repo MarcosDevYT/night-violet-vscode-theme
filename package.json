@@ -1,0 +1,22 @@
+{
+  "name": "night-violet",
+  "displayName": "NightViolet",
+  "publisher": "MarcosDev",
+  "description": "A sleek, dark theme with elegant violet accents for developers who love minimalist, modern design",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NightViolet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-violet-theme.json"
+      }
+    ]
+  }
+}
